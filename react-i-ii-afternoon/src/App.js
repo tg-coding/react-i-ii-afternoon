@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import './App.css';
 // import { render } from '@testing-library/react';
 import Header from './Components/Header';
-import PersonInfo from './Components/PersonInfo';
+import PersonInfo from './Components/PersonInfo'; 
 // import EditPage from './Components/EditPage';
 
 class App extends Component {
