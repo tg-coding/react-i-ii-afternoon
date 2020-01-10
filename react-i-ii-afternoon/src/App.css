@@ -1,8 +1,15 @@
-.App {
-  text-align: center;
+.App{
+  text-align: left;
   background-color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
   width: 100%;
+}
+
+h4{
+  color: #222222;
+  font-weight: bolder;
+
 }
 
 .header-container{
@@ -13,10 +20,57 @@
   flex-direction: row;
 }
 
-.home-text{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: Bold;
+.home-text{ 
+  font-weight: 900;
   color: #222222;
   margin: auto 0;
   padding: 0 30px;
 }
+
+.body{
+  width: 80%;
+  margin: 90px auto;
+  display: flex;
+  flex-direction: column
+}
+
+.personInfo-container{
+  background-color: lightgray;
+}
+
+.userName{
+  width: auto;
+  padding: 0 20px;
+  color: #222222;
+  font-weight: 900;
+  font-size: 25px;
+  text-decoration: solid underline #57a3d5;
+  /* border-bottom: dotted; */
+}
+
+.button-container{
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navButton{
+  color: white;
+  font-weight: 900;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+}
+
+.editButton{
+  margin: 0 6px;
+  padding: 5px 10px;
+  background-color: #57a3d5;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 900;
+  font-size: 11px;
+}
+
