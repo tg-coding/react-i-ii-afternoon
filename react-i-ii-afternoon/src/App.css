@@ -1,15 +1,12 @@
 .App{
   text-align: left;
   background-color: #222222;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
   height: 100vh;
   width: 100%;
-}
-
-h4{
   color: #222222;
-  font-weight: bolder;
-
+  letter-spacing: .05em;
 }
 
 .header-container{
@@ -21,7 +18,7 @@ h4{
 }
 
 .home-text{ 
-  font-weight: 900;
+  font-weight: 800;
   color: #222222;
   margin: auto 0;
   padding: 0 30px;
@@ -30,23 +27,58 @@ h4{
 .body{
   width: 80%;
   margin: 90px auto;
-  display: flex;
-  flex-direction: column
+  display: block;
 }
 
 .personInfo-container{
   background-color: lightgray;
+  display: relative;
+  /* padding: 20px; */
+}
+
+.userIndex{
+  text-align: right;
+  font-size: 23px;
+  font-weight: 850;
+  padding: 6px 6px;
+  /* margin: 30px 100px; */
+}
+
+.userInfo{
+  margin: -30px 0 0 0;
+  padding: 0 0 35px 50px;
 }
 
 .userName{
   width: auto;
-  padding: 0 20px;
   color: #222222;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 25px;
-  text-decoration: solid underline #57a3d5;
-  /* border-bottom: dotted; */
+  text-decoration: solid underline #57a3d5;  
 }
+
+p, ol{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.strongText{
+  font-weight: 800;
+}
+
+ol{
+  text-align: left;
+  margin: -15px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
 
 .button-container{
   margin: 10px 0;
@@ -73,4 +105,5 @@ h4{
   font-weight: 900;
   font-size: 11px;
 }
+
 

@@ -50,20 +50,28 @@ class PersonInfo extends Component {
             <div className='body'>
                 <div className='personInfo-container'>
                     
-                    <h1>{user[index].id}/25</h1>
-                    
-                    <h1 className='userName'>{user[index].name.first} {user[index].name.last}</h1>
-                    
-                    <h4>From:</h4> <p>{user[index].city}, {user[index].country}</p>
-                    
-                    <h4>Job Title:</h4> <p>{user[index].title}</p>
-                    
-                    <h4>Employer:</h4><p>{user[index].employer}</p>
-                    
-                    <h4>Favorite Movies:</h4>
-                    <ol>
-                        {list}
-                    </ol>
+                    <h1 className='userIndex'>
+                        {user[index].id}/25
+                    </h1>
+                    <div className='userInfo'>
+                        <h1 className='userName'>
+                            {user[index].name.first} {user[index].name.last}
+                        </h1>
+                        
+                        <p>
+                            <strong className='strongText'>From:</strong> {user[index].city}, {user[index].country}
+                        <br/>
+                            <strong className='strongText'>Job Title:</strong> {user[index].title}
+                        <br/>
+                            <strong className='strongText'>Employer: </strong>{user[index].employer}
+                        </p>
+
+                        <p className='movies'><strong className='strongText'>Favorite Movies:</strong></p>
+                        <ol>
+                            {list}
+                        </ol>
+
+                    </div>
                 
                 </div>
 
